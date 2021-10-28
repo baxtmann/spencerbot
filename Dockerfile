@@ -16,4 +16,4 @@ RUN pip3 install -U git+https://github.com/Pycord-Development/pycord
 
 RUN echo "SpencerBot TOKEN = ""$GIBBY_TOKEN" >> .env
 
-CMD [ "python", "./spencer/spencer.py" ]
+CMD [ "python", "./spencerbot/spencer.py" ]
